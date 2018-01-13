@@ -1,6 +1,6 @@
 {
   "name": "form-errors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Anderson Pereira <ander.ratm@gmail.com>",
   "homepage": "https://github.com/andershow09",
   "private": false,
@@ -34,5 +34,14 @@
     "@ionic/app-scripts": "3.1.6",
     "typescript": "2.4.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andershow09/form-erorrs.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andershow09/form-erorrs/issues"
+  }
 }
