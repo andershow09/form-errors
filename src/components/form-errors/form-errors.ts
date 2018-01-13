@@ -1,8 +1,13 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, NgModule } from '@angular/core';
 
 @Component({
   selector: 'form-errors',
   templateUrl: 'form-errors.html'
+})
+@NgModule({
+  declarations: [FormErrorsComponent],
+  imports: [],
+  exports: [FormErrorsComponent]
 })
 export class FormErrorsComponent {
 
