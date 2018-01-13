@@ -1,5 +1,5 @@
 <div class="error">{{control== null? '':control.required? required : control.email? email: control.minlength? minLength + ' ' + control.minlength.actualLength
   + '/'+control.minlength.requiredLength : control.maxlength? maxLength + ' ' + control.maxlength.actualLength + '/'+control.maxlength.requiredLength:
   control.pattern? pattern: custom}}
-  <i class="icon icon-error" warning color="danger" item-right *ngIf="control"></i>
+  <ion-icon class="icon-error" name="warning" color="danger" item-right *ngIf="control"></ion-icon>
 </div>
