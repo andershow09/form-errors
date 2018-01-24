@@ -1,0 +1,41 @@
+{
+  "name": "form-errors",
+  "version": "0.0.12",
+  "description": "A template for creating reusable module for Angular 2 and Ionic 2",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "del aot dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@types/node": "^6.0.60",
+    "zone.js": "^0.8.4",
+    "rxjs": "^5.4.0",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "ngc-webpack": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andershow09/form-errors2.git"
+  },
+  "keywords": [
+    "Form",
+    "errors"
+  ],
+  "author": "Anderson Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andershow09/form-errors2/issues"
+  },
+  "homepage": "https://github.com/andershow09/form-errors2#readme"
+}
