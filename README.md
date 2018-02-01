@@ -2,7 +2,7 @@
 
 This is a component for managing error messages within the form of Ionic pages..
 
-## How To use
+## How To install
 
 To Install it run:  `npm install form-errors`.
 
