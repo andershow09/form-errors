@@ -65,16 +65,16 @@ Import module into the module of the page you want to use in session imports
 
 ## Available parameters 
 
-# [control] (required) - is the formControlName inside the FormGroup control;
-# requided             - Mandatory field message;
-# email                - Email validation;
-# min                  - Validation of minimum value of the input (number);
-# max                  - Validation of maximum value of the input (number);
-# minLength            - Validation of minimum input character size;
-# maxLength            - Validation of maximum input character size;
-# maxLength            - Validation of maximum input character size;
-# pattern              - Validation of regex defined in formGroup;
-# custom               - Custom error message;
+#### [control] (required) - is the formControlName inside the FormGroup control;
+#### requided             - Mandatory field message;
+#### email                - Email validation;
+#### min                  - Validation of minimum value of the input (number);
+#### max                  - Validation of maximum value of the input (number);
+#### minLength            - Validation of minimum input character size;
+#### maxLength            - Validation of maximum input character size;
+#### maxLength            - Validation of maximum input character size;
+#### pattern              - Validation of regex defined in formGroup;
+#### custom               - Custom error message;
 
 
   
