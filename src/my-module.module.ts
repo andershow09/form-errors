@@ -1,13 +1,16 @@
 import { Observable } from 'rxjs';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { FormErrors } from './components/form-errors';
+import { IconErrors } from './components/form-errors';
 
 @NgModule({
   declarations: [
-    FormErrors
+    FormErrors,
+    IconErrors
   ],
   exports: [
-    FormErrors
+    FormErrors,
+    IconErrors
   ]
 })
 export class FormErrorsModule {
