@@ -51,7 +51,7 @@ Import module into the module of the page you want to use in session imports
       <form-errors [control]="formLogin.controls.email" required="Campo obrigatório"></form-errors>
   ```
 
-  In your .ts, declare your initialize your formGroup by validating the fields according to rules applicable to each field;
+  In your .ts, declare and initialize your formGroup by validating the fields according to rules applicable to each field;
 
   Ex:
 
