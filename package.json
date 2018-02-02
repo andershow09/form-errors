@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andershow09/form-errors2.git"
+    "url": "git+https://github.com/andershow09/form-errors.git"
   },
   "keywords": [
     "Form",
@@ -39,7 +39,7 @@
   "author": "Anderson Pereira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andershow09/form-errors2/issues"
+    "url": "https://github.com/andershow09/form-errors/issues"
   },
-  "homepage": "https://github.com/andershow09/form-errors2#readme"
+  "homepage": "https://github.com/andershow09/form-errors#readme"
 }
