@@ -61,20 +61,24 @@ Import module into the module of the page you want to use in session imports
       password: ['', Validators.required, Validators.pattern("^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$")], //Letters And numbers min 8 characters
     })
   ```
-  Enjoy
+  
+### Sample:
+![alt text](https://github.com/andershow09/form-erorrs/blob/master/samples/sample.jpg)
+  
+Enjoy
 
 ## Available parameters 
 
-#### [control] (required) - is the formControlName inside the FormGroup control;
-#### requided             - Mandatory field message;
-#### email                - Email validation;
-#### min                  - Validation of minimum value of the input (number);
-#### max                  - Validation of maximum value of the input (number);
-#### minLength            - Validation of minimum input character size;
-#### maxLength            - Validation of maximum input character size;
-#### maxLength            - Validation of maximum input character size;
-#### pattern              - Validation of regex defined in formGroup;
-#### custom               - Custom error message;
+##### [control] (required) - is the formControlName inside the FormGroup control;
+##### requided             - Mandatory field message;
+##### email                - Email validation;
+##### min                  - Validation of minimum value of the input (number);
+##### max                  - Validation of maximum value of the input (number);
+##### minLength            - Validation of minimum input character size;
+##### maxLength            - Validation of maximum input character size;
+##### maxLength            - Validation of maximum input character size;
+##### pattern              - Validation of regex defined in formGroup;
+##### custom               - Custom error message;
 
 
   
