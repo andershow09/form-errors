@@ -1,4 +1,5 @@
 # Ionic Form Errors
+[![npm version](https://badge.fury.io/js/form-errors.svg)](https://badge.fury.io/js/form-errors)
 
 This is a component for managing error messages within the form of Ionic pages..
 
@@ -80,6 +81,7 @@ Enjoy
 ##### pattern              - Validation of regex defined in formGroup;
 ##### custom               - Custom error message;
 
-
+# License
+[![GitHub license](https://img.shields.io/github/license/andershow09/form-errors.svg)](https://github.com/andershow09/form-errors/blob/master/LICENSE)
   
 
