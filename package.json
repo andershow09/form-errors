@@ -1,6 +1,6 @@
 {
   "name": "form-errors",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "A component for displaying forms errors in Ionic Apps",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -10,23 +10,22 @@
     "publishPackage": "npm run build && npm publish"
   },
   "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@types/node": "^6.0.60",
-    "rimraf": "^2.6.2",
-    "rxjs": "^5.4.0",
-    "typescript": "^2.3.4",
-    "zone.js": "^0.8.4"
+    "@angular/common": "^13.0.0",
+    "@angular/compiler": "^13.0.0",
+    "@angular/compiler-cli": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "@angular/platform-browser": "^13.0.0",
+    "@angular/platform-browser-dynamic": "^13.0.0",
+    "@types/node": "^20.2.5",
+    "rimraf": "^5.0.1",
+    "rxjs": "^7.8.1",
+    "typescript": ">=4.4.2 <4.7",
+    "zone.js": "^0.11.4"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "ionic-angular": "^3.9.2",
-    "ionicons": "^3.0.0",
-    "ngc-webpack": "^4.1.2"
+    "ionic-angular": "^3.9.10",
+    "ionicons": "^7.1.2"
   },
   "repository": {
     "type": "git",
