@@ -1,6 +1,9 @@
 # Form Errors (v1.1.x Universal)
 
-[![npm version](https://badge.fury.io/js/form-errors.svg)](https://badge.fury.io/js/form-errors)
+[![npm version](https://img.shields.io/npm/v/form-errors/legacy.svg?color=crimson&logo=npm&label=npm%20(legacy))](https://www.npmjs.com/package/form-errors)
+[![npm downloads](https://img.shields.io/npm/dm/form-errors.svg?color=blue&logo=npm)](https://www.npmjs.com/package/form-errors)
+[![Ionic 2 to 6](https://img.shields.io/badge/Ionic-2%20%7C%203%20%7C%204%20%7C%205%20%7C%206-3880FF?logo=ionic&logoColor=white)](https://ionicframework.com)
+[![Angular 2 to 15](https://img.shields.io/badge/Angular-2%20to%2015-DD0031?logo=angular&logoColor=white)](https://angular.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Componente universal para exibição de erros em formulários Angular para **Ionic 2, 3, 4, 5 e 6**.
@@ -251,9 +254,9 @@ Por padrão, um ícone SVG de exclamação é exibido ao lado da mensagem. Para 
 
 ---
 
-## 🔄 Migração de `0.0.10` para `1.1.0`
+## 🔄 Migração de `0.0.10` para `1.1.1`
 
-Nenhuma alteração de template é necessária! A `v1.1.0` é **100% retrocompatível** com o markup da versão legada, corrigindo os bugs internos e removendo as dependências vulneráveis.
+Nenhuma alteração de template é necessária! A `v1.1.1` é **100% retrocompatível** com o markup da versão legada, corrigindo os bugs internos e removendo as dependências vulneráveis.
 
 ---
 
