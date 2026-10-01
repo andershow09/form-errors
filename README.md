@@ -1,6 +1,6 @@
-# @AShows/ionic-form-errors
+# form-errors
 
-[![npm version](https://badge.fury.io/js/%40AShows%2Fionic-form-errors.svg)](https://www.npmjs.com/package/@AShows/ionic-form-errors)
+[![npm version](https://badge.fury.io/js/form-errors.svg)](https://www.npmjs.com/package/form-errors)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Biblioteca Angular moderna para exibição de erros de validação em formulários do **Ionic 7 e 8+**.
@@ -30,7 +30,7 @@
 
 | Versão da Lib | Ecossistema Alvo | Versão do Ionic | Versão do Angular |
 |---|---|---|---|
-| **`@AShows/ionic-form-errors@2.x`** (Esta) | **Moderno** | **Ionic 7 e 8+** | **Angular 17, 18, 19+** |
+| **`form-errors@2.x`** (Esta) | **Moderno** | **Ionic 7 e 8+** | **Angular 17, 18, 19+** |
 | **`form-errors@1.1.0`** ([branch `v1-legacy`](https://github.com/andershow09/form-errors/tree/v1-legacy)) | **Legado Universal** | **Ionic 2, 3, 4, 5 e 6** | **Angular 2 a 15** |
 
 ---
@@ -38,7 +38,7 @@
 ## 📦 Instalação
 
 ```bash
-npm install @AShows/ionic-form-errors
+npm install form-errors
 ```
 
 ---
@@ -50,7 +50,7 @@ No seu `app.config.ts` (ou no `providers` do seu `AppModule`):
 ```typescript
 // app.config.ts
 import { ApplicationConfig } from '@angular/core';
-import { provideIonFormErrors } from '@AShows/ionic-form-errors';
+import { provideIonFormErrors } from 'form-errors';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -83,7 +83,7 @@ export const appConfig: ApplicationConfig = {
 import { Component, inject } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { IonContent, IonHeader, IonInput, IonItem, IonList, IonTitle, IonToolbar, IonButton } from '@ionic/angular/standalone';
-import { IonFormErrorsComponent } from '@AShows/ionic-form-errors';
+import { IonFormErrorsComponent } from 'form-errors';
 
 @Component({
   selector: 'app-login',
@@ -175,7 +175,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { IonFormErrorsComponent, IonFormErrorsDirective } from '@AShows/ionic-form-errors';
+import { IonFormErrorsComponent, IonFormErrorsDirective } from 'form-errors';
 import { LoginPage } from './login.page';
 
 @NgModule({
@@ -261,7 +261,7 @@ const customMessages: ErrorMessages = {
 
 | Recurso | Versão Legada (`v1.x`) | Versão Moderna (`v2.x`) |
 |---|---|---|
-| **Pacote npm** | `form-errors` | `@AShows/ionic-form-errors` |
+| **Pacote npm** | `form-errors` | `form-errors` |
 | **Arquitetura** | `NgModule` (`FormErrorsModule`) | **100% Standalone** |
 | **Reatividade** | Invocação estática / getter | **Change Detection integrada** |
 | **Diretiva Inline** | ❌ Não suportada | ✅ `[ionFormErrors]` com `errorText` nativo |

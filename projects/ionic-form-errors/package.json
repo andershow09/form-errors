@@ -1,5 +1,5 @@
 {
-  "name": "@AShows/ionic-form-errors",
+  "name": "form-errors",
   "version": "2.0.0",
   "description": "A modern Angular library for displaying reactive form validation errors in Ionic applications.",
   "peerDependencies": {
@@ -11,6 +11,7 @@
   "keywords": [
     "ionic",
     "angular",
+    "form",
     "form-errors",
     "validation",
     "reactive-forms",
@@ -21,7 +22,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andershow09/ionic-form-errors.git"
+    "url": "git+https://github.com/andershow09/form-errors.git"
   },
+  "bugs": {
+    "url": "https://github.com/andershow09/form-errors/issues"
+  },
+  "homepage": "https://github.com/andershow09/form-errors#readme",
   "sideEffects": false
 }

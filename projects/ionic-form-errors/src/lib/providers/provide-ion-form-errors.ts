@@ -29,8 +29,7 @@ export const ION_FORM_ERRORS_CONFIG = new InjectionToken<IonFormErrorsConfig>(
  *
  * @example
  * ```typescript
- * // app.config.ts
- * import { provideIonFormErrors } from '@AShows/ionic-form-errors';
+ * import { provideIonFormErrors } from 'form-errors';
  *
  * export const appConfig = {
  *   providers: [
