@@ -1,6 +1,11 @@
 # form-errors
 
-[![npm version](https://badge.fury.io/js/form-errors.svg)](https://www.npmjs.com/package/form-errors)
+[![npm version](https://img.shields.io/npm/v/form-errors.svg?color=crimson&logo=npm)](https://www.npmjs.com/package/form-errors)
+[![npm downloads](https://img.shields.io/npm/dm/form-errors.svg?color=blue&logo=npm)](https://www.npmjs.com/package/form-errors)
+[![Ionic 7 | 8+](https://img.shields.io/badge/Ionic-7%20%7C%208+-3880FF?logo=ionic&logoColor=white)](https://ionicframework.com)
+[![Angular 17 | 18 | 19+](https://img.shields.io/badge/Angular-17%20%7C%2018%20%7C%2019+-DD0031?logo=angular&logoColor=white)](https://angular.dev)
+[![TypeScript Strict](https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Coverage 98%](https://img.shields.io/badge/coverage-98.29%25-brightgreen?logo=vitest&logoColor=white)](https://vitest.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Biblioteca Angular moderna para exibição de erros de validação em formulários do **Ionic 7 e 8+**.
@@ -8,7 +13,7 @@
 **100% Standalone** · **Zero dependências em runtime** · **Suporte a Signals** · **Compatível com NgModule**
 
 > 🏛️ **Precisa de suporte para Ionic 2, 3, 4, 5 ou 6?**  
-> Utilize a versão universal legada [`form-errors@1.1.0`](https://www.npmjs.com/package/form-errors) mantida na branch [`v1-legacy`](https://github.com/andershow09/form-errors/tree/v1-legacy).
+> Utilize a versão universal legada [`form-errors@1.1.1`](https://www.npmjs.com/package/form-errors) mantida na branch [`v1-legacy`](https://github.com/andershow09/form-errors/tree/v1-legacy).
 
 ---
 
@@ -31,7 +36,7 @@
 | Versão da Lib | Ecossistema Alvo | Versão do Ionic | Versão do Angular |
 |---|---|---|---|
 | **`form-errors@2.x`** (Esta) | **Moderno** | **Ionic 7 e 8+** | **Angular 17, 18, 19+** |
-| **`form-errors@1.1.0`** ([branch `v1-legacy`](https://github.com/andershow09/form-errors/tree/v1-legacy)) | **Legado Universal** | **Ionic 2, 3, 4, 5 e 6** | **Angular 2 a 15** |
+| **`form-errors@1.1.1`** ([branch `v1-legacy`](https://github.com/andershow09/form-errors/tree/v1-legacy)) | **Legado Universal** | **Ionic 2, 3, 4, 5 e 6** | **Angular 2 a 15** |
 
 ---
 
