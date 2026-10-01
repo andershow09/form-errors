@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "projects": {
+    "ionic-form-errors": {
+      "projectType": "library",
+      "root": "projects/ionic-form-errors",
+      "sourceRoot": "projects/ionic-form-errors/src",
+      "architect": {
+        "build": {
+          "builder": "ng-packagr:build",
+          "options": {
+            "project": "projects/ionic-form-errors/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ionic-form-errors/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ionic-form-errors/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    }
+  }
+}
