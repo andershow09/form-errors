@@ -1,3 +1,6 @@
 node_modules/
 aot/
 src/
+coverage/
+.git/
+*.log

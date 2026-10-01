@@ -1,16 +1,21 @@
-import { Observable } from "rxjs";
-import { NgModule, ModuleWithProviders } from "@angular/core";
-import { FormErrors } from "./components/form-errors";
-import { IconErrors } from "./components/form-errors";
+import { NgModule, ModuleWithProviders } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormErrorsComponent, IconErrors } from './components/form-errors';
 
 @NgModule({
-  declarations: [FormErrors, IconErrors],
-  exports: [FormErrors, IconErrors],
+  declarations: [FormErrorsComponent, IconErrors],
+  imports: [CommonModule],
+  exports: [FormErrorsComponent, IconErrors],
 })
 export class FormErrorsModule {
-  static forRoot(): ModuleWithProviders<any> {
+  static forRoot(): ModuleWithProviders<FormErrorsModule> {
     return {
-      ngModule: FormErrors,
+      ngModule: FormErrorsModule,
     };
   }
 }
+
+/**
+ * Backward compatibility alias for the module name used in earlier versions.
+ */
+export const ComponentsModule = FormErrorsModule;
