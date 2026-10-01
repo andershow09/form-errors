@@ -1,17 +1,17 @@
-# Form Errors (v1.1.0 Universal)
+# Form Errors (v1.1.x Universal)
 
 [![npm version](https://badge.fury.io/js/form-errors.svg)](https://badge.fury.io/js/form-errors)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Componente universal para exibição de erros em formulários Angular para **Ionic 2, 3, 4, 5 e 6**.
 
-> 💡 **Usando Ionic 7 ou 8?** Utilize a nova versão Standalone com Signals: [`@AShows/ionic-form-errors`](https://www.npmjs.com/package/@AShows/ionic-form-errors).
+> 💡 **Usando Ionic 7 ou 8?** Utilize a versão moderna Standalone com Signals: [`form-errors@latest`](https://www.npmjs.com/package/form-errors).
 
 ---
 
-## 🎯 Por que a v1.1.0?
+## 🎯 Por que a v1.1.x?
 
-A versão **1.1.0** foi completamente reformulada para resolver todos os problemas históricos das versões antigas (`0.0.10`):
+A versão **1.1.x** foi completamente reformulada para resolver todos os problemas históricos das versões antigas (`0.0.10`):
 
 - ✅ **Zero Dependências em Runtime:** Não depende mais de `ionic-angular`, `ionicons` ou `font-awesome`.
 - ✅ **Livre de Referências Circulares:** Elimina o bug `IonicModule.forRoot(FormErrorsComponent)` que quebrava builds.
@@ -25,20 +25,21 @@ A versão **1.1.0** foi completamente reformulada para resolver todos os problem
 
 | Versão do Ionic | Versão do Angular | Versão Recomendada da Lib |
 |---|---|---|
-| **Ionic 2** | Angular 2 a 4 | `form-errors@1.1.0` ✅ |
-| **Ionic 3** | Angular 5 | `form-errors@1.1.0` ✅ |
-| **Ionic 4** | Angular 7 a 8 | `form-errors@1.1.0` ✅ |
-| **Ionic 5** | Angular 9 a 12 | `form-errors@1.1.0` ✅ |
-| **Ionic 6** | Angular 13 a 15 | `form-errors@1.1.0` ✅ |
-| **Ionic 7 & 8** | Angular 17 a 19+ | `@AShows/ionic-form-errors@2.x` 🚀 |
+| **Ionic 2** | Angular 2 a 4 | `form-errors@1.1.1` ✅ |
+| **Ionic 3** | Angular 5 | `form-errors@1.1.1` ✅ |
+| **Ionic 4** | Angular 7 a 8 | `form-errors@1.1.1` ✅ |
+| **Ionic 5** | Angular 9 a 12 | `form-errors@1.1.1` ✅ |
+| **Ionic 6** | Angular 13 a 15 | `form-errors@1.1.1` ✅ |
+| **Ionic 7 & 8** | Angular 17 a 19+ | `form-errors@2.x` (tag: `latest`) 🚀 |
 
 ---
 
 ## 📦 Instalação
 
 ```bash
-npm install form-errors@1.1.0 --save
+npm install form-errors@1.1.1 --save
 ```
+*(Ou via tag legada: `npm install form-errors@legacy --save`)*
 
 ---
 
