@@ -29,6 +29,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint projects/ionic-form-errors/src --ext .ts",
+    "publish:v2": "npm run build && npm publish ./dist/form-errors",
     "prepublishOnly": "npm run build"
   },
   "private": false,
